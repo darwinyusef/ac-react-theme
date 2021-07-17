@@ -1,0 +1,32 @@
+@import "layout/navbar";
+
+// @darwinyusef
+.content .navbar {
+    background-color: rgba($primary, 0.95);
+    color: $white;
+
+    .icon {
+        color: $white;
+    }
+
+    .font-small {
+        color: $white
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .content .navbar {
+        padding: 10px 20px !important;
+    }
+
+    .redModified {
+        padding: 10px 20px !important;
+    }
+}
+
+
+
+@import "layout/section";
+@import "layout/footer";
+@import "layout/sidebar";
+@import "layout/sidenav";
